@@ -1,0 +1,12 @@
+# /etc/sysconfig/network-scripts/ifcfg-enp0s3
+DNS1=8.8.8.8
+DNS2=1.1.1.1
+PEERDNS=no
+
+# /etc/resolv.conf
+nameserver 8.8.8.8
+nameserver 1.1.1.1
+
+#then lock the resolve.conf
+chattr +i /etc/resolv.conf
+

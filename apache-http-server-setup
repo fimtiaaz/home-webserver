@@ -1,0 +1,9 @@
+sudo yum install httpd -y
+sudo systemctl enable httpd
+sudo systemctl start httpd
+sudo firewall-cmd --add-service=http --permanent
+sudo firewall-cmd --reload
+
+#To access the server
+
+http://192.168.8.171 (example IP from bridged network)

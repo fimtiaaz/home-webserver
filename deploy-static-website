@@ -1,0 +1,7 @@
+# Clone project
+git clone https://github.com/fimtiaaz/centos7-home-webserver.git ~/LinuxProjects/
+
+# Copy site content to Apache root
+sudo cp ~/LinuxProjects/centos7-home-webserver/index.html /var/www/html/
+sudo cp -r ~/LinuxProjects/centos7-home-webserver/{css,js,images} /var/www/html/
+
