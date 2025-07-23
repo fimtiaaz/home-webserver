@@ -15,6 +15,8 @@ centos7-home-webserver/
 ├── index.html
 ├── sample-page/
 ├── static-dns
+├── nohup.out
+├── PORT-SETUP.md
 ├── scripts/
 │   ├── 01-static-dns.sh
 │   ├── 02-install-apache.sh
